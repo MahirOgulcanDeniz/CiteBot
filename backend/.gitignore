@@ -1,0 +1,21 @@
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Yuklenen belgeler ve vektor veritabani
+uploads/
+chroma_db_*/
+
+# Node
+node_modules/
+.next/
+
+# Isletim sistemi / editor
+.DS_Store
+Thumbs.db
