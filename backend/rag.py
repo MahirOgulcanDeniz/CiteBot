@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
-from backend.ingest import vectorstore
-from backend.providers import get_llm
+from ingest import vectorstore
+from providers import get_llm
 
 llm = get_llm()
 

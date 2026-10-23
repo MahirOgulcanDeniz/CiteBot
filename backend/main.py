@@ -3,8 +3,8 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from backend.ingest import ingest_file
-from backend.rag import answer
+from ingest import ingest_file
+from rag import answer
 
 app = FastAPI(title="CiteBot", description="Belgelerinle konuş, cevapları kaynaklarıyla birlikte al.")
 app.add_middleware(

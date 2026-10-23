@@ -2,7 +2,7 @@ import os
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
-from backend.providers import PROVIDER, get_embeddings
+from providers import PROVIDER, get_embeddings
 
 # Embedding boyutlari saglayiciya gore farkli oldugu icin her saglayici
 # kendi klasorunu kullanir; aksi halde veritabani bozulur.
